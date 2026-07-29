@@ -32,6 +32,7 @@ features = [
     "splent-io/splent_feature_session_filesystem",
     "splent-io/splent_feature_courses",
     "splent-io/splent_feature_skin_egc",
+    "splent-io/splent_feature_archive",
 ]
 features_dev = [
     "splent-io/splent_feature_admin",

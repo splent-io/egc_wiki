@@ -43,3 +43,7 @@ node_modules/
 
 # Features symlinks
 features
+
+# The frozen archive is content, not code: it is built by the migration
+# and synchronised to the deployment, not versioned with the product.
+archive/
