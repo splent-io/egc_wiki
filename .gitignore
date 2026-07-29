@@ -47,3 +47,8 @@ features
 # The frozen archive is content, not code: it is built by the migration
 # and synchronised to the deployment, not versioned with the product.
 archive/
+
+# Runtime state, never code. instance/protected_uploads holds restricted
+# files: material withheld until a release date. Committing it would put
+# the very content this product protects into a repository.
+src/instance/
