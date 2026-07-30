@@ -18,7 +18,7 @@ services:
       - "5281:5000"
       # Locust web interface, served from inside this container by
       # 'splent locust'.
-      - "8089:8089"
+      - "8370:8089"
     depends_on:
       egc_wiki_db:
         condition: service_healthy
