@@ -70,3 +70,18 @@ hooks = [
 where = [
     "src",
 ]
+
+# ── What this product decides about its features ──────────────────────────
+# The features declare these and their defaults in their own pyproject; here
+# are only the ones this product answers differently. Versioned and reviewable,
+# unlike docker/.env, which holds passwords and is not committed.
+[tool.splent.config]
+SITE_NAME = "egc.us.es"
+SEARCH_PLACEHOLDER = "es:Buscar en esta wiki|en:Search this wiki"
+AUTH_LOGIN_LAYOUT = "public_base.html"
+ARCHIVE_NAV = false
+COURSES_NAME_PREFIX = "EGC"
+COURSES_DESCRIPTION_TEMPLATE = "Material docente de EGC, curso {year}"
+COURSES_DEFAULT_CATEGORIES = "Teoría,Prácticas,Organización,Elementos evaluables y cálculo de nota"
+ARCHIVE_PATH = "archivo"
+ARCHIVE_DIR = "/workspace/egc_wiki/archive"
