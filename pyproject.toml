@@ -32,7 +32,7 @@ features = [
     "splent_io/splent_feature_archive@v0.2.1",
     "splent_io/splent_feature_skin_terminal",
     "splent_io/splent_feature_theme",
-    "splent_io/splent_feature_auth@v1.9.0",
+    "splent_io/splent_feature_auth",
     "splent_io/splent_feature_search",
     "splent_io/splent_feature_courses",
 ]
