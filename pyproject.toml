@@ -34,7 +34,7 @@ features = [
     "splent_io/splent_feature_auth@v1.10.2",
     "splent_io/splent_feature_skin_terminal@v0.3.0",
     "splent_io/splent_feature_search@v0.4.1",
-    "splent_io/splent_feature_courses@v0.7.1",
+    "splent_io/splent_feature_courses@v0.8.1",
 ]
 features_dev = [
     "splent_io/splent_feature_admin@v1.2.0",
@@ -80,6 +80,11 @@ SITE_NAME = "egc.us.es"
 SEARCH_PLACEHOLDER = "es:Buscar en esta wiki|en:Search this wiki"
 AUTH_LOGIN_LAYOUT = "public_base.html"
 ARCHIVE_NAV = false
+# The word the wiki this replaces served its pages under. Every link
+# between pages was written with it, in 431 places, and it is in slides and
+# e-mails nobody is going to edit. The feature's default is "pagina"; using
+# it here would have turned 1388 cross references into 404s.
+COURSES_PAGE_SEGMENT = "documento"
 COURSES_NAME_PREFIX = "EGC"
 COURSES_DESCRIPTION_TEMPLATE = "Material docente de EGC, curso {year}"
 COURSES_DEFAULT_CATEGORIES = "Teoría,Prácticas,Organización,Elementos evaluables y cálculo de nota"
